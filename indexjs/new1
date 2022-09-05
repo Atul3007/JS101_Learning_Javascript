@@ -1,0 +1,12 @@
+
+let sum=0;
+let str="abcdefghijklmnopqrstuvwxyz";
+for(let i=0;i<=str.length-1;i++){
+    for(let j=0;j=S.length-1;j++){
+    if(str[i]==S[j]){
+        sum+=str[i].length;
+    }else{
+        continue;
+    }console.log(sum);
+    }
+}
